@@ -1,8 +1,7 @@
-"""
 # https://github.com/mdaquila/lab10-MD-JD
 # Partner 1: Matthew D'Aquila
 # Partner 2: Joshua Dionne
-"""
+
 import unittest
 from calculator import *
 
