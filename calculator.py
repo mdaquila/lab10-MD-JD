@@ -4,8 +4,28 @@ calculator.py
 
 One function per operation, in order.
 """
-# First example
-def add(a, b): 
-    pass
+
+import math
+
+def add(a, b):
+    return a + b
 
 
+def subtract(a, b):
+    return a - b
+
+
+def divide(a, b):
+    return a / b
+
+
+def logarithm(a, b):
+    return math.log(b, a)
+
+
+def hypotenuse(a, b):
+    return a ** 2 + b ** 2
+
+
+def sqrt(a):
+    return math.sqrt(a)
